@@ -10,6 +10,10 @@ public class Dictionary {
         this.region = region;
     }
 
+    public Dictionary(String keyword) {
+        this.keyword = keyword;
+    }
+
     public String getKeyword() {
         return keyword;
     }

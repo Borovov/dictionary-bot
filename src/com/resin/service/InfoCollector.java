@@ -47,10 +47,10 @@ public class InfoCollector {
         System.out.println("Input " + purpose.getCode() + " keyword: ");
         String keyword = getLine(scanner);
 
-        System.out.println("Input " + purpose.getCode() + " region: ");
-        String region = getLine(scanner);
+        //System.out.println("Input " + purpose.getCode() + " region: ");
+        //String region = getLine(scanner);
 
-        return new Dictionary(keyword, region);
+        return new Dictionary(keyword);
     }
 
     private String getLine(Scanner scanner) {
