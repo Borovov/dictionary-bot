@@ -18,12 +18,12 @@ public class DictionaryRepository {
                     builder.append(row).append("\n");
                 }
                 reader.close();
-                System.out.println(builder);
+                //System.out.println(builder);
 
                 // Замена упоминаний справочника на новые
                 String fileBody = builder.toString().replaceAll(donorKey, recipientKey);
                 fileBody = fileBody.replaceAll(getLowerKey(donorKey), getLowerKey(recipientKey));
-                System.out.println(fileBody);
+                //System.out.println(fileBody);
 
                 // Создание и запись нового файла
                 createRecipientFile(recipientPaths[i], fileBody);

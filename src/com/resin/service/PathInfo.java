@@ -17,9 +17,10 @@ public class PathInfo {
             "\\src\\main\\java\\ru\\alfastrahoms\\eis\\medx\\dictionary\\web\\###DictionaryController.java",
             "\\src\\main\\java\\ru\\alfastrahoms\\eis\\medx\\dictionary\\web\\###DtoMapper.java",
             "\\src\\test\\java\\ru\\alfastrahoms\\eis\\medx\\dictionary\\web\\###ControllerTest.java",
-            "\\src\\test\\java\\ru\\alfastrahoms\\eis\\medx\\dictionary\\web\\###DuplicateKeyValidator.java",
             "\\src\\test\\resources\\dictionary\\###.xml",
-            "\\src\\test\\resources\\dictionary\\###_update.xml"
+            "\\src\\test\\resources\\dictionary\\###_update.xml",
+            "\\src\\test\\java\\ru\\alfastrahoms\\eis\\medx\\dictionary\\web\\###DictionaryValidationService.java",
+            "\\src\\test\\java\\ru\\alfastrahoms\\eis\\medx\\dictionary\\web\\###DuplicateKeyValidator.java"
     };
 
     public static String[] getInfo() {
